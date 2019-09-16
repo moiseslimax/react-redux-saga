@@ -1,7 +1,7 @@
 import { IMAGES } from "../constants";
 
 const loadImages = () => ({
-  TYPE: IMAGES.LOAD
+  type: IMAGES.LOAD
 });
 
 const setImages = images => ({
